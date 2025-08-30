@@ -1,13 +1,16 @@
-streamlit>=1.36
-duckdb>=1.0.0
-pandas>=2.2
-altair>=5.3
-sqlglot>=23.0
-python-dotenv>=1.0
-openai>=1.35
-pydantic>=2.7
-# optional
-psycopg2-binary>=2.9
-SQLAlchemy>=2.0
-polars>=1.5
-vl-convert-python>=1.6
+# Core
+streamlit==1.36.0
+openai==1.40.0
+langchain==0.2.11
+faiss-cpu==1.8.0.post1
+
+# File parsing
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Optional: Chroma (as alternative vector DB)
+chromadb==0.5.3

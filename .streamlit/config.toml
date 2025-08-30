@@ -8,4 +8,4 @@ magicEnabled = false
 toolbarMode = "viewer"
 
 [theme]
-base = "light"
+base = "dark"
